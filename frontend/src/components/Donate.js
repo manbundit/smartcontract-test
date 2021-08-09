@@ -1,8 +1,7 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useWeb3Context } from '../web3/Web3Provider';
 import { Modal, FormControl, Button } from 'react-bootstrap'
 import { useToastContext } from './Toast';
-import { useEffect } from 'react/cjs/react.development';
 
 export default function DonateModal({
   show,
